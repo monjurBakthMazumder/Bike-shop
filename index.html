@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/bike1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/bike1.png" type="image/x-icon">
     <title>Biker Zone</title>
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,9 @@
         extend: {
           colors: {
             'custom-color': '#E76F51',
+          },
+          backgroundImage: {
+            'header-bg':"url('./images/latest2.png')",
           }
         }
       }
@@ -66,7 +69,7 @@
       </div>
   </nav>
     <header id="home" >
-        <div class="hero  items-start" style="background-image: url('images/latest2.png');background-position: top;">
+        <div class="hero  items-start bg-header-bg">
             <div class="hero-overlay "></div>
             <div class="hero-content  flex flex-col">
                 
@@ -90,19 +93,19 @@
                 <div class="w-[50px] h-[3px] bg-custom-color  mb-12"></div>
             </div>
             <div class="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-                <img src="images/bike1.png" alt="" class="w-full">
-                <img src="images/bike3.png" alt="" class="w-full">
-                <img src="images/bike2.png" alt="" class="w-full">
-                <img src="images/bike5.png" alt="" class="w-full">
-                <img src="images/bike4.png" alt="" class="w-full">
-                <img src="images/bike1.png" alt="" class="w-full">
+                <img src="./images/bike1.png" alt="" class="w-full">
+                <img src="./images/bike3.png" alt="" class="w-full">
+                <img src="./images/bike2.png" alt="" class="w-full">
+                <img src="./images/bike5.png" alt="" class="w-full">
+                <img src="./images/bike4.png" alt="" class="w-full">
+                <img src="./images/bike1.png" alt="" class="w-full">
             </div>
       </section>
       <section class="text-center mt-8 md:mt-20 lg:mt-32">
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-16">Latest Bikes</h1>
         <div class="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             <div class="card  bg-white shadow-xl">
-                <figure><img src="images/latest1.png"/></figure>
+                <figure><img src="./images/latest1.png"/></figure>
                 <div class="card-body text-start">
                   <h2 class="card-title text-xl font-semibold mb-3">Ducati XDIAVEL S-73</h2>
                   <p class="text-base font-normal mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -112,7 +115,7 @@
                 </div>
             </div>
             <div class="card  bg-white shadow-xl">
-                <figure><img src="images/latest2.png"/></figure>
+                <figure><img src="./images/latest2.png"/></figure>
                 <div class="card-body text-start">
                   <h2 class="card-title text-xl font-semibold mb-3">Motorcycles & Scooters</h2>
                   <p class="text-base font-normal mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -122,7 +125,7 @@
                 </div>
             </div>
             <div class="card bg-white shadow-xl">
-                <figure><img src="images/latest3.png"/></figure>
+                <figure><img src="./images/latest3.png"/></figure>
                 <div class="card-body text-start">
                   <h2 class="card-title text-xl font-semibold mb-3">2021 Honda CBR500R</h2>
                   <p class="text-base font-normal mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -137,7 +140,7 @@
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-16">Happy <span class="text-custom-color">Clients says</span></h1>
           <div class="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div class="card  bg-white shadow-xl">
-                  <figure><img src="images/user-1.png" class="w-[150px]" /></figure>
+                  <figure><img src="./images/user-1.png" class="w-[150px]" /></figure>
                   <div class="card-body text-center px-8 py-5">
                     <p class="text-base font-normal mb-1 xl:mx-7">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                     <div class="rating justify-center mb-1">
@@ -152,7 +155,7 @@
                   </div>
               </div>
               <div class="card  bg-white shadow-xl">
-                  <figure><img src="images/user-2.png" class="w-[150px]" /></figure>
+                  <figure><img src="./images/user-2.png" class="w-[150px]" /></figure>
                   <div class="card-body text-center px-8 py-5">
                     <p class="text-base font-normal mb-1 xl:mx-7">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                     <div class="rating justify-center mb-1">
@@ -167,7 +170,7 @@
                   </div>
               </div>
               <div class="card  bg-white shadow-xl">
-                  <figure><img src="images/user-3.png" class="w-[150px]" /></figure>
+                  <figure><img src="./images/user-3.png" class="w-[150px]" /></figure>
                   <div class="card-body text-center px-8 py-5">
                     <p class="text-base font-normal mb-1 xl:mx-7">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                     <div class="rating justify-center mb-1">
@@ -187,7 +190,7 @@
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-16">Frequently Asked <span class="text-custom-color">Questions</span></h1>
         <div class="hero text-start">
           <div class="hero-content grid grid-cols-1 md:grid-cols-2 ">
-              <img src="images/faq.png" class=" rounded-lg shadow-2xl" />
+              <img src="./images/faq.png" class=" rounded-lg shadow-2xl" />
             <div>
               <div class="collapse  collapse-arrow">
                 <input type="radio" name="my-accordion-1" checked="checked" /> 
